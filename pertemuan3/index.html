@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-align: center;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      table,
+      th,
+      td {
+        border: 1px solid #000;
+        border-collapse: collapse;
+        text-align: center;
+        padding: 10px;
+        width: 100%;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      tr {
+        background-color: #f9f9f9;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1>Daftar Siswa</h1>
+      <table width="80%">
+        <thead>
+          <th colspan="2">Jenis Kelamin</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Laki Laki</td>
+            <td>Perempuan</td>
+          </tr>
+        </tbody>
+      </table>
+      <h1>Latihan</h1>
+      <table>
+        <thead>
+          <tr>
+            <th rowspan="2">Kelas</th>
+            <th rowspan="2">Nama</th>
+            <th rowspan="2">Nim</th>
+            <th colspan="2">Jenis Kelamin</th>
+          </tr>
+          <tr>
+            <th>laki laki</th>
+            <th>perempuan</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="3">A</td>
+            <td>Andi</td>
+            <td>12345</td>
+            <td>✔</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Budi</td>
+            <td>12346</td>
+            <td>✔</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Caca</td>
+            <td>12347</td>
+            <td></td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td rowspan="3">2</td>
+            <td>Deni</td>
+            <td>12348</td>
+            <td>✔</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>Euis</td>
+            <td>12349</td>
+            <td></td>
+            <td>✔</td>
+          </tr>
+          <tr>
+            <td>Fafa</td>
+            <td>12350</td>
+            <td></td>
+            <td>✔</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>

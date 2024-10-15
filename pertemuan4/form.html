@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Account</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="form-container">
+      <h1>Register Account</h1>
+      <form action="">
+        <div class="form-group">
+          <label for="fullname">Full Name</label>
+          <input type="text" id="fullname" placeholder="Enter your full name" />
+        </div>
+        <div class="form-group">
+          <label for="username">Username</label>
+          <input type="text" id="username" placeholder="Enter your username" />
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            placeholder="Enter your password"
+          />
+        </div>
+        <div class="form-group">
+          <label for="jk">Gender</label>
+          <input type="radio" name="jk" value="Pria" id="pria" />
+          <label for="pria">Male</label>
+          <input type="radio" name="jk" value="Wanita" id="wanita" />
+          <label for="wanita">Female</label>
+        </div>
+        <div class="form-group">
+          <label for="hobby">Hobby</label>
+          <input type="checkbox" name="hobby" value="Belajar" id="belajar" />
+          <label for="belajar">Learning</label>
+          <input type="checkbox" name="hobby" value="Ngoding" id="ngoding" />
+          <label for="ngoding">Coding</label>
+          <input type="checkbox" name="hobby" value="Tidur" id="tidur" />
+          <label for="tidur">Sleeping</label>
+        </div>
+        <div class="form-group">
+          <label for="jurusan">Major</label>
+          <select id="jurusan">
+            <option value="TI">Computer Science</option>
+            <option value="SI">Information Systems</option>
+            <option value="MI">Information Management</option>
+          </select>
+        </div>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </body>
+</html>
