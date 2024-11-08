@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Input PHP Conditions</title>
+</head>
+<body>
+
+    <h2>Kondisi 1: Nilai Mutlak</h2>
+    <form action="kondisi.php" method="POST">
+        <label for="absolute_value">Masukkan nilai:</label>
+        <input type="number" name="absolute_value" id="absolute_value" required>
+        <button type="submit" name="submit_absolute">Hitung Nilai Mutlak</button>
+    </form>
+
+    <hr>
+
+    <h2>Kondisi 2: Lulus atau Tidak Lulus</h2>
+    <form action="kondisi.php" method="POST">
+        <label for="score">Masukkan nilai:</label>
+        <input type="number" name="score" id="score" required>
+        <button type="submit" name="submit_score">Cek Kelulusan</button>
+    </form>
+
+    <hr>
+
+    <h2>Kondisi 3: Konversi Nilai ke Index</h2>
+    <form action="kondisi.php" method="POST">
+        <label for="grade">Masukkan nilai:</label>
+        <input type="number" name="grade" id="grade" required>
+        <button type="submit" name="submit_grade">Konversi ke Index</button>
+    </form>
+
+    <hr>
+
+    <h2>Switch Case: Konversi Angka ke Terbilang</h2>
+    <form action="kondisi.php" method="POST">
+        <label for="number">Masukkan angka (0-9):</label>
+        <input type="number" name="number" id="number" min="0" max="9" required>
+        <button type="submit" name="submit_number">Konversi ke Terbilang</button>
+    </form>
+
+</body>
+</html>
